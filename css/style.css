@@ -1919,10 +1919,7 @@ Icon for all respective meta
 }
 
 .short-info {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    /* margin-left: 10px; */
-    margin-right: 60px;
+    margin: 10px 60px 40px;
 }
 
 .short-info h3 {
@@ -2134,7 +2131,6 @@ Icon for all respective meta
 
     .short-info {
         margin-bottom: 40px;
-        margin-left: 20px;
     }
 
     .biography {
@@ -2224,13 +2220,13 @@ Icon for all respective meta
     .biography .myphotobg {
         display: none;
     }
+    .short-info{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
 }
-@media(max-width:434px){
-   .short-info h3{
-    font-size: 15px;
-   }
-}
+
 @media(max-width:374px){
     .section-title{
         font-size: 40px;
