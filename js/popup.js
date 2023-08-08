@@ -18,6 +18,27 @@ $(function () {
     });
 
 });
+$(function () {
+    $('.thumb4 a').click(function () {
+        $('.popup4').fadeIn();
+        $('html').css({ 'overflow': 'hidden', 'height': '100%' });
+    });
+
+});
+$(function () {
+    $('.thumb5 a').click(function () {
+        $('.popup5').fadeIn();
+        $('html').css({ 'overflow': 'hidden', 'height': '100%' });
+    });
+
+});
+$(function () {
+    $('.thumb6 a').click(function () {
+        $('.popup6').fadeIn();
+        $('html').css({ 'overflow': 'hidden', 'height': '100%' });
+    });
+
+});
 
 $(function () {
     $('.popup a').click(function () {
