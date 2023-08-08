@@ -1425,12 +1425,14 @@ Resume Timeline
 
 .post-thumbnail {
     overflow: hidden;  
-    height: 300px;
+   
     position: relative;
     margin-bottom: 30px;
     text-align: center;
 }
-
+#otherworks .post-thumbnail{
+    height: 300px;
+}
 .post-thumbnail img {
     object-fit: cover;
     width: 100%;
@@ -1442,7 +1444,7 @@ Resume Timeline
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
 }
-.post-thumbnail h2{
+#otherworks .post-thumbnail h2{
     color: #002142;
     font-family: 'DungGeunMo';
     font-size: 16px;
@@ -1526,7 +1528,7 @@ Resume Timeline
     min-width: 100%;
     min-height: 100%;
     display: block; 
-    width: 550px;  
+    width: 30%;  
 }
 
 /* 팝업 end*/
@@ -2216,6 +2218,22 @@ Icon for all respective meta
     .biography .myphotobg {
         display: none;
     }
+    .thumb1 img{
+        object-position: 20px -5px;
+    }
+    .thumb2 img{
+        object-position: -195px -20px;
+     }
+    .popupb div{
+        width: 50%;
+    }
+    .popup video{
+        min-width: 100%;
+        min-height: 100%;
+        display: block; 
+        width: 50%;  
+    }
+
 }
 
 @media(max-width:640px) {
@@ -2261,6 +2279,15 @@ Icon for all respective meta
     .short-info{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .popupb div{
+        width: 70%;
+    }
+    .popup video{
+        min-width: 100%;
+        min-height: 100%;
+        display: block; 
+        width: 70%;  
     }
 
 }
