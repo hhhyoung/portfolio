@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>잼 상세페이지</title>
+    
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/smile-top.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-width: 860px;
+            /* background: url(./images/bgimg.png)no-repeat;
+            background-attachment: fixed;
+            background-size: cover; */
+            background-color: #fffdf5;
+        }
+        @font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+        .main {
+            width: 860px;
+            margin: auto;
+        }
+        #main1 p {
+    text-align: center;
+
+    font-family: 'MangoDdobak-B';
+    color: #521802;
+
+    padding: 100px 0;
+    background-color: #fff6da;
+    font-size: 80px;
+}
+
+
+#main1 .txt1{
+    background-color: #fffdf5;
+
+}
+
+        img {
+            display: block;
+        }
+
+        /* ---------------------------------------------- /*
+ * Scroll to top
+/* ---------------------------------------------- */
+
+        .scroll-up {
+            position: fixed;
+            display: none;
+            z-index: 999;
+            bottom: 1.8em;
+            right: 1.8em;
+        }
+
+        .scroll-up a {
+            background-color: #1958dc;
+            display: block;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        .scroll-up a:hover,
+        .scroll-up a:active {
+            background-color: rgba(235, 235, 235, .8);
+            color: #222;
+        }
+
+        #main1 {
+            position: relative;
+        }
+
+        .videocontent1{
+           
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background: #fff;
+
+        }
+        .jamsang1{
+            display: block;
+            width: 860px;
+        }
+
+        
+        video{
+            width: 860px;
+            display: block;
+        }
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <div id="main1">
+        <div class="videocontent1">
+        <video class="video-content" src="./images/blog/jam4.mp4" loop muted autoplay playsinline></video>
+
+        <img  class="jamsang1" src="./images/blog/jamsang1.jpg" alt="">
+
+        <p data-aos="fade-up" data-aos-duration="3000">입 안 가득 퍼지는<br>
+            향긋한 풍미!</p>
+
+        <video class="video-content2" src="./images/blog/jam2.mp4" loop muted autoplay playsinline></video>
+
+        <p class="txt1" data-aos="fade-up" data-aos-duration="3000">알알이 살아있는<br>
+            과육의 식감!</p>
+
+           
+            <img src="./images/blog/jamsang2.jpg" alt="" class="jamsang2">
+
+            <video class="video-content" src="./images/blog/jamajam.mp4" loop muted autoplay playsinline></video>
+
+            <img src="./images/blog/jam3-1.jpg" alt="" class="jamsang3">
+
+            <video class="video-content" src="./images/blog/jam5.mp4" loop muted autoplay playsinline></video>
+            <img src="./images/blog/jam3-2.jpg" alt="" class="jamsang3">
+
+       </div>
+
+
+    </div>
+
+
+
+    <!-- 제이쿼리 -->
+
+</body>
+
+</html>
